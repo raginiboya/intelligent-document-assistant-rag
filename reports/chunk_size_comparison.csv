@@ -1,0 +1,4 @@
+chunk_size,chunk_overlap,number_of_chunks,average_chunk_length,minimum_chunk_length,maximum_chunk_length
+500,100,1008,419.01,17,499
+1000,200,544,865.73,32,999
+1500,300,370,1257.17,32,1500

@@ -1,0 +1,7 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "number_of_vectors": 544,
+  "number_of_chunks": 544,
+  "vector_database": "FAISS"
+}
