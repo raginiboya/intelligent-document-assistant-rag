@@ -4,6 +4,10 @@ An end-to-end Retrieval-Augmented Generation (RAG) application that extracts inf
 
 The project combines open-source sentence embeddings, FAISS semantic search, LangGraph orchestration, Groq language-model inference, automated evaluation, and a Streamlit web interface.
 
+## Live Application
+
+[Launch the Intelligent Document Assistant](https://ragini-intelligent-document-assistant.streamlit.app/)
+
 ## Project Overview
 
 Large PDF documents are difficult to search manually. A general language model may also produce answers that are unsupported by the source document.
@@ -160,7 +164,7 @@ It provides enough context for financial tables and paragraphs while keeping ret
 ### 1. Clone the repository
 
 ```powershell
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/raginiboya/intelligent-document-assistant-rag.git
 cd Intelligent_Document_Assistant_RAG
 ```
 
@@ -194,11 +198,10 @@ pip install -r requirements.txt
 Create a root `.env` file:
 
 ```env
-GROQ_API_KEY=your_private_groq_api_key
+GROQ_API_KEY="your_private_groq_api_key"
 GROQ_MODEL=openai/gpt-oss-20b
 ```
 
-Never place the real API key in source code, screenshots, documentation, or GitHub.
 
 ## Running the Data Pipeline
 
